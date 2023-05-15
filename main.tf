@@ -5,8 +5,8 @@ resource "azurerm_resource_group" "rg-1" {
 
 resource "azurerm_virtual_network" "vNet-1" {
   name = var.vNet_name
-  resource_group_name = azurerm_resource_group.name
-  location = azurerm_resource_group.location
+  resource_group_name = azurerm_resource_group.rg-1.name
+  location = azurerm_resource_group.rg-1.location
   address_space = ["10.0.0.0/16"]
   
   subnet {
