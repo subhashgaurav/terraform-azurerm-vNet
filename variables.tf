@@ -10,8 +10,12 @@ variable "vNet_name" {
 }
 
 
-variable "subnet_name" {
+variable "location" {
   tyep = string
   
 }
 
+variable "vNet_name" {
+  tyep = string
+  
+}
