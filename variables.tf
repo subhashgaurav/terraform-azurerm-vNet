@@ -1,21 +1,21 @@
 variable "rg_name" {
-  tyep = string
+  type = string
   
 }
 
 
 variable "vNet_name" {
-  tyep = string
+  type = string
   
 }
 
 
 variable "location" {
-  tyep = string
+  type = string
   
 }
 
 variable "vNet_name" {
-  tyep = string
+  type = string
   
 }
