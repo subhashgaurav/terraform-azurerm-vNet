@@ -15,7 +15,7 @@ variable "location" {
   
 }
 
-variable "vNet_name" {
+variable "subnet_name" {
   type = string
   
 }
