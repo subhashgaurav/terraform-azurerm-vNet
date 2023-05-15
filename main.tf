@@ -1,3 +1,8 @@
+#############################################
+# Create New Virtual Network and Subnet Mask 
+#############################################
+
+
 resource "azurerm_resource_group" "rg-1" {
   name = var.rg_name
   location = var.location 
